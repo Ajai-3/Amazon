@@ -1,0 +1,282 @@
+/* ***Main section*****************/
+.main-section {
+    background-color: #e3e6e6;
+}
+.main-section-image {
+    /* background-image: url("media/main.jpg"); */
+    background: linear-gradient(to bottom, transparent, rgba(235, 233, 233, 1)), url('media/main.jpg');
+    background-size: cover;
+    width: 1500px;
+    height: 600px;
+    margin-left: 9.60px;
+    display: flex;
+    cursor: pointer;
+}
+/* shoping items section 1 ***************/
+
+.shop-section1 {
+    width: 1480px;
+    height: 420px;
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+    top: 250px;
+
+}
+
+/*  */
+.box {
+    height: 420px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.space {
+    height: 24px;
+}
+
+.shop-content-boxtype1 {
+    margin: 20px;
+}
+.shop-content-boxtype2 {
+    width: 310px;
+    height: 151.85px;
+    margin: 10px 0px 8px 0px;
+    display: flex;
+}
+.shop-content-boxtype3 {
+    width: 310px;
+    height: 151.85px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.shop-content-boxtype4 {
+    width: 1460px;
+    height: 281.5px;
+    margin: 20px 0px 0px 30px;
+    background-color: #ffffff;
+}
+
+
+/* box type 1  large image**/
+.box-type-1 {
+     background-size: cover;
+     width: 310px;
+     height: 276px;
+     margin: 15px 0px 15px 0px;
+
+}
+
+/* box type 2    4 images in a box***/
+.box-type-2 {
+    background-size: cover;
+    width: 147px;
+    height: 115.85px;
+}
+
+/* box type 3    heding box of  large box***/
+.box-type-3 {
+    width: 1420px;
+    height: 31.5px;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+/* box type 4    inside box of large box***/
+.box-type-4 {
+    width: 1420px;
+    height: 220px;
+    display: flex;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+/* section 2 */
+.shop-section2 {
+    width: 1480px;
+    height: 420px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 90px;
+
+}
+
+/* section 3 */
+.sec3-box1,
+.sec3-box2 {
+    width: 171px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+.sec3-box3 {
+    width: 270px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.sec3-box4 {
+    width: 197px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: cover;
+}
+.sec3-box5,
+.sec3-box6 {
+    width: 145px;
+    height: 200px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.sec3-box7 {
+    width: 270px;
+    height: 200px;
+}
+
+/* section 4 */
+.sec4-box1,
+.sec4-box5,
+.sec4-box6,
+.sec4-box7 {
+    width: 145px;
+    height: 200px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+.sec4-box2 {
+    width: 270px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+}
+.sec4-box3 {
+    width: 187px;
+    height: 200px;
+    margin-right: 10px;
+    background-size: cover;
+
+}
+.sec4-box4 {
+    width: 241px;
+    height: 200px;
+    margin-right: 10px;
+   
+}
+
+.sec4-box8 {
+    width: 72px;
+    height: 200px;
+}
+
+/* section 5  & section 8 & section 10*/
+.shop-section5,
+.shop-section8,
+.shop-section10 {
+    display: flex;
+    margin: 20px 20px 0px 20px;
+}
+.shop-content-boxtype5 {
+    margin: 20px;
+}
+
+/* common section large box ***/
+/* this box using in section 6,7,9 */
+.common-sec-large-box {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.lastbox-large-box {
+    width: 160px;
+    height: 200px;
+}
+
+/* section 11 */
+.sec11-box {
+    width: 145px;
+    height: 200px;
+    margin-right: 10px;
+}
+.sec11-last-box {
+    width:165px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/* sign in section ******************************/
+.div1 {
+    width: 100%;
+    height: 20px;
+    background-color: #e3e6e6;
+}
+.div2 {
+    width: 100%;
+    height: 22px;
+    background-color: #fdfdfd
+}
+.div3 {
+    width: 100%;
+    height: 165px;
+}
+
+.div-container {
+    height: 125px;
+    position: relative;
+    top: 22px;
+    border: 1.5px solid #e3e6e6;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.main-sign-in-container {
+    height: 68px;
+    margin: 35px 20px 20px 20px;
+    padding-left: 20px;
+    background-color: #ffffff;
+
+}
+/*  */
+.sign-in-title {
+    width: 1437.6px;
+    height: 15px;
+    text-align: center;
+    font-size: .8rem;
+}
+/*  */
+.sign-in-div {
+
+    margin: 5px 18px 5px 0px;
+    text-align: center;
+}
+.sign-in-button {
+    width: 230px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: #ffc83e;
+    border: 1.2px solid #b78403;
+    cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+/*  */
+.sign-in-tooltip {
+    width: 1437.6px;
+    height: 15px;
+    text-align: center;
+    font-size: .75rem;
+}
+

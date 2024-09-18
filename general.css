@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+h3 {
+    color: #0f1111;
+    font-size: 1.3rem;
+}
+h3:hover {
+    cursor: text;
+}
+p2 {
+    color: #15a4bd;
+    font-size: .75rem;
+}
+p2:hover {
+    color: #bd1515;
+    cursor: pointer;
+}
+p3 {
+    color: #0f1111;
+    font-size: .7rem;
+}
+.shop-box2 {
+    margin-left: 15.6px;
+}

@@ -1,0 +1,227 @@
+/* Navigation bar *****************/
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+/* Box 1 */
+/* Amazon logo */
+.nav-logo {
+
+    margin: 5px .5px .5px 8px;
+    height: 50px;
+    width: 113px;
+    flex-shrink: 0;
+}
+
+.logo {
+    background-image: url("media/amazon_logo.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.3px solid white;
+    border-radius: 2px;
+}
+/* Box 2 */
+/* Address & Location */
+.nav-address-location {
+    margin: 5px .5px 5px .5px;
+    width: 198.49px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.nav-location {
+    display: flex;
+}
+.address-first {
+    color: #cccccc;
+    font-size: 0.77rem;
+    margin: 9px 0px 0px 23px;
+}
+.address-sec {
+    font-weight: bolder;
+    font-size: 0.9rem;
+    margin-left: 5px;
+
+}
+.fa-solid {  
+    margin-left: 6px;
+}
+/* Box 3 */
+/* Search bar */
+.nav-search {
+    margin: 10px;
+    width: 783.84px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #dc8e29;
+    display: flex;
+}
+.search-select {
+    width: 51.6px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    outline: none;
+}
+.search-input {
+    width: 100%;
+    min-width: 200px;
+    height: 38px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #111111;
+
+}
+.search-select:hover {
+    background-color: #cbc7c7;
+}
+.search-icon:hover {
+    background-color: #eb9627;
+}
+.nav-search:hover {
+    border: 2.3px solid #e88709;   
+}
+
+.serch-input:active {
+    border: 2.3px solid #251500;
+}
+/* Box 4 */
+/* select laguage */
+.language-box {
+    width: 76.38px;
+    height: 50px;
+    margin: 5px .5px 5px 5px;
+    flex-shrink: 0;
+}
+.language-selection-box {
+    width: 54px;
+    height: 19px;
+    margin: 18px 2px 0px 11px;
+    display: flex;
+}
+.language-contry-flag {
+    width: 21.6px;
+    height: 18.2px;
+    background-image: url("media/united-states.png");
+    background-size: cover;
+    /* display: flex; */
+    
+}
+.language-select {
+   width: 18.40;
+   height: 15;
+   background-color: #131921;
+   border: none;
+   color: white;
+   font-weight: bolder;
+   outline: none;
+}
+
+/* Box 5 */
+/* sign in Account & Lists */
+.nav-signin {
+    margin: 5px 2px 5px 2px;
+    width: 131.53px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.nav-signin-text {
+    margin: 8px;
+}
+.nav-first {
+    font-size: 0.77rem;
+}
+.nav-sec {  
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+/* Box 6 */
+/* returns & order */
+.nav-Returns {
+    width: 83px;
+    height: 50px;
+    margin: 5px 1px 5px 1px;
+    flex-shrink: 0;
+}
+.nav-Returns-text {
+    margin: 8px;
+}
+/* Box 7 */
+/* cart */
+.nav-cart {
+    width: 84px;
+    height: 50px;
+    margin: 5px 10px 5px 1px;
+    font-weight: bolder;
+    flex-shrink: 0;
+}
+.nav-cart i {
+    margin-top: 6px;
+    font-size: 30px;
+}
+
+ /* panel *************************/
+ 
+.panel {
+    width: 1fr;
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    font-size: .9rem;
+    padding-left: 8px;
+    /* cursor: pointer; */
+}
+
+.panel-items {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px 10px 5px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.panel-items i {
+    /* margin: 0; */
+    padding: 6px;
+    font-size: 18px;
+}    
+.panel-items p{ 
+    font-weight: bold;
+}
+
+.panel-select-box {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    cursor: pointer;
+
+}
